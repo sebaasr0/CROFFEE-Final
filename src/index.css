@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  margin: 0;
+  font-family: 'Afacad', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Font family utility classes that match Figma's naming */
+.font-aclonica {
+  font-family: 'Aclonica', sans-serif;
+}
+
+.font-actor {
+  font-family: 'Actor', sans-serif;
+}
+
+.font-afacad {
+  font-family: 'Afacad', sans-serif;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
