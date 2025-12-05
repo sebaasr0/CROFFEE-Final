@@ -2,13 +2,13 @@ CROFFEE - Installation Guide
 Complete step-by-step instructions to run the CROFFEE project on your computer.
 
 Prerequisites
-Before running this project, you need to install the following software:
+Before running this project, you need to install
 1. Install Visual Studio Code (VS Code)
 VS Code is the code editor we'll use to open and run the project.
 
 Go to https://code.visualstudio.com/
 Click the Download button for your operating system (Windows, macOS, or Linux)
-Run the installer and follow the installation wizard
+Run the installer and follow the installation
 Once installed, open VS Code to make sure it works
 
 
@@ -31,12 +31,12 @@ If both commands show version numbers, Node.js is installed correctly!
 
 Project Setup
 Step 1: Download or Clone the Project
-Option A: Download as ZIP
 
+-Option A: Download as ZIP
 Download the project ZIP file
 Extract the ZIP file to a folder on your computer
 
-Option B: Clone from GitHub (if you have Git installed)
+-Option B: Clone from GitHub (if you have Git installed)
 bashgit clone https://github.com/sebaasr0/CROFFEE-Final.git
 
 Step 2: Open the Project in VS Code
@@ -72,7 +72,7 @@ Read the package.json file
 Download all required packages (React, TypeScript, Tailwind CSS, etc.)
 Create a node_modules folder with all the dependencies
 
-Wait for the installation to complete. This may take 1-3 minutes depending on your internet connection. You'll see a progress indicator and when it's done, you'll see a summary of installed packages.
+Wait for the installation to complete.
 
 Note: If you see any warnings (yellow text), that's usually okay. Only errors (red text) indicate a problem.
 
