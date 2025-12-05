@@ -62,7 +62,7 @@ export function ProductDetailCrods({ product, onBack, onAddToCart }: ProductDeta
 
           {/* Product Info */}
           <div className="flex flex-col">
-            {/* Product Title - Just show the name + CRODS once */}
+            {/* Product Title */}
             <h1 className="font-actor text-[28px] sm:text-[36px] lg:text-[48px] text-black mb-2 leading-tight">
               {product.name.toUpperCase()} CRODS
             </h1>
@@ -85,7 +85,8 @@ export function ProductDetailCrods({ product, onBack, onAddToCart }: ProductDeta
             </div>
 
             {/* Coffee Strength Indicator */}
-            <div className="mb-6 sm:mb-8">
+            <div className="mb-6 sm:mb-8 flex items-center gap-2">
+              <span className="font-actor font-bold text-[16px] sm:text-[18px] lg:text-[20px]">STRENGTH:</span>
               <CoffeeStrengthIndicator strength={product.strength || 2} />
             </div>
 
