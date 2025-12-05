@@ -86,7 +86,7 @@ export function ProductDetailGroundCoffee({ product, onBack, onAddToCart }: Prod
                 {selectedType === 'ground' ? 'GROUND' : 'WHOLE GRAIN'}
               </p>
               
-              <div className="flex flex-wrap gap-3">
+              <div className="flex flex-wrap gap-3 items-center">
                 {/* Ground Button */}
                 <button
                   onClick={() => setSelectedType('ground')}
@@ -108,7 +108,8 @@ export function ProductDetailGroundCoffee({ product, onBack, onAddToCart }: Prod
                 </button>
 
                 {/* Strength Indicator */}
-                <div className="flex items-center ml-2">
+                <div className="flex items-center gap-2 ml-2">
+                  <span className="font-actor font-bold text-[14px] sm:text-[16px]">STRENGTH:</span>
                   <CoffeeStrengthIndicator strength={product.strength || 2} />
                 </div>
               </div>
